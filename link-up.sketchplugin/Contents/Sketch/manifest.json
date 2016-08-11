@@ -1,0 +1,24 @@
+{
+  "name": "link-up",
+  "identifier": "com.sketchapp.plugins.linkup",
+  "version": "0.2",
+  "description": "Create link paths between artboards.",
+  "authorEmail": "erichan@raventech.com",
+  "author": "Eric Han",
+  "commands": [
+    {
+      "name": "Direct Link",
+      "identifier": "directLink",
+      "script": "main.js",
+      "handler": "onDirectLink",
+      "shortcut": "cmd shift d"
+    }, {
+      "name": "Smart Link",
+      "identifier": "smartLink",
+      "script": "main.js",
+      "handler": "onSmartLink",
+      "shortcut": "cmd shift f"
+    }
+  ]
+}
+
